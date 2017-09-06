@@ -1,0 +1,23 @@
+background 和渐变 总结
+一，background-position：（图片定位）
+三种写法：
+1）：按％比，左上角最小（0％，0%），右下角最大（100%，％100）；
+2）：（x,y）左上角最小（0，0），右下角最大（max，max）；
+3）top，center，left，right，bottom；
+二，background-clip:
+1，包含那一部分的值：border；padding；content；
+三，background-origin:
+1，从那一部分值开始：border；padding；con tent；
+四，背景图像是否固定或者随着页面的其余部分滚动。	
+1，scroll：随着页面的其余部分滚动
+2，fixed ：固定在窗口的某个位置。
+五，渐变：
+1，线性渐变：linear-gradient：
+1）如果是角度：角度，过渡色；
+2）如果是top。。。，方向前加to，后过渡色；
+2，迳向渐变：radial-gradient：
+1）默认是中心点渐变；
+2）［size at left top］：其中size是渐变半径。
+3,重复渐变：
+1）重复线性渐变：repeating－linear－gradient：格式跟线性渐变一样。
+2）重复迳向渐变：reoeating－radial－gradient：格式跟迳向渐变一样。
