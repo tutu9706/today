@@ -1,4 +1,4 @@
-background 和渐变 总结
+background 和渐变 总结 : 
 一，background-position：（图片定位）
 三种写法：
 1）：按％比，左上角最小（0％，0%），右下角最大（100%，％100）；
